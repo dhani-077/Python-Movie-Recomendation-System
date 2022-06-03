@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 
 st.write("Here's the table that shows 1000 top movie based on IMDB rating:")
-df = pd.read_csv(r'C:\Users\abdur\My Data\Data Science\Personal Project\Movie Recomendation\Top 1000 IMDb movies_FIX.csv')
+df = pd.read_csv('Top 1000 IMDb movies.csv')
 
 column = ["Title", "Genre", "Star", "Director" ]
 
